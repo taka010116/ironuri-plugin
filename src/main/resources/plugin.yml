@@ -1,0 +1,14 @@
+name: PaintGamePlugin
+version: '${version}'
+main: me.taka.paintgame.PaintGamePlugin
+api-version: '1.21'
+commands:
+  start:
+    description: Battle を開始する
+    usage: /start <分>
+  reset:
+    description: リセット
+  finish:
+    description: 終わり
+  light:
+    description: 発光
